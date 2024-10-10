@@ -7,7 +7,7 @@ entries:
           - title: Japan  # Subcategory
             entries:
               - title: 2024-10-15 osaka  # Post link
-                url: /osaka/
+                url: https://github.com/trichardsonthefirst/trichardsonthefirst.github.io/blob/e08eb74baeb0c379e1bd90738afc3e8250843f48/_posts/osaka.md
               - title: 2024-03-29 shimanami kaido  # Post link
                 url: /shimanami-kaido/
               - title: 2023-04-28 tone river  # Post link
