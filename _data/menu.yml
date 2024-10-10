@@ -1,38 +1,24 @@
-# For documentation on this file, see:
-# https://github.com/riggraz/no-style-please#customize-the-menu
-
 entries:
-  - title: info
-    entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
-
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+  - title: Bikepacking  # Section title
+    entries:  # Submenu items
+      - title: Routes  # Subsection title
+        entries:
+          - title: France  # Category
+          - title: Japan  # Subcategory
+            entries:
+              - title: 2024-03-31 shikoku  # Post link
+                url: /shikoku/
+              - title: 2024-03-29 shimanami kaido  # Post link
+                url: /shimanami-kaido/
+              - title: 2023-04-28 tone river  # Post link
+                url: /tone-river/
+              - title: 2023-04-01 kyushu  # Post link
+                url: /kyushu/
 
   - title: rss
     url: feed.xml
-  
-  - title: another list
+
+  - title: Thanks to  # Section for credits
     entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
+      - title: Erik for saving me from riding a M size frame in Japan
+      - title: Theme by <a href="https://riggraz.dev">Riggraz</a>
