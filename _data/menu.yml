@@ -6,8 +6,8 @@ entries:
           - title: France  # Category
           - title: Japan  # Subcategory
             entries:
-              - title: 2024-03-31 shikoku  # Post link
-                url: /shikoku/
+              - title: 2024-10-15 osaka  # Post link
+                url: /osaka/
               - title: 2024-03-29 shimanami kaido  # Post link
                 url: /shimanami-kaido/
               - title: 2023-04-28 tone river  # Post link
