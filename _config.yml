@@ -1,27 +1,33 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+# Basic Site Information
+title: "Kawaii Tarik's Bikepacking Blog"  # Update to your blog's name
+author: Tarik Hasic  # Your name
+email: tarik@example.com  # Your email
+url: "https://kawaiitarik.eu"  # Your domain
+baseurl: ""  # Leave this blank since you're not using a subpath
 
+# Description of your site
+description: > 
+  Follow my bikepacking adventures around the world, exploring new destinations and experiences!
+
+# Favicon (make sure to upload the favicon file in the root folder)
+favicon: "logo.png"
+
+# Use permalink for cleaner URLs
 permalink: /:slug.html
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
-theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
-
+# Theme Configuration
+theme: no-style-please  # Theme for GitHub Pages
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  appearance: "auto"  # Can be "light", "dark", or "auto"
+  back_home_text: "Back to Home"  # Customize the text that links back to the homepage
+  date_format: "%Y-%m-%d"  # Customize how the date is displayed on posts
+  show_description: true  # Show the description on the homepage
 
+# Sass and Plugins
 sass:
   style: :compressed
 
+# Plugins for RSS feed and SEO tags
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
