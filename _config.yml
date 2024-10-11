@@ -7,7 +7,7 @@ baseurl: ""  # Leave this blank since you're not using a subpath
 
 # Description of your site
 description: > 
-  Follow my bikepacking adventures around the world, exploring new destinations and experiences!
+  Bikepacking
 
 # Favicon (make sure to upload the favicon file in the root folder)
 favicon: "logo.png"
@@ -15,8 +15,9 @@ favicon: "logo.png"
 # Use permalink for cleaner URLs
 permalink: /:slug.html
 
-# Theme Configuration
-theme: no-style-please  # Theme for GitHub Pages
+# Theme Configuration for GitHub Pages
+remote_theme: riggraz/no-style-please  # Use remote_theme for GitHub Pages
+
 theme_config:
   appearance: "auto"  # Can be "light", "dark", or "auto"
   back_home_text: "Back to Home"  # Customize the text that links back to the homepage
@@ -31,3 +32,4 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
